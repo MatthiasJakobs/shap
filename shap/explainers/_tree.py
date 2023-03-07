@@ -584,6 +584,7 @@ class TreeEnsemble:
 
         # we use names like keras
         objective_name_map = {
+            "squared_error": "squared_error",
             "mse": "squared_error",
             "variance": "squared_error",
             "friedman_mse": "squared_error",

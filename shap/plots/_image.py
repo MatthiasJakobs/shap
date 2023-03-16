@@ -17,7 +17,7 @@ except ImportError:
 try:
     from IPython.core.display import display, HTML
 except ImportError:
-    warnings.warn("IPython could not be loaded!")
+    pass
 from . import colors
 from ..utils._legacy import kmeans
 
